@@ -393,6 +393,8 @@ end
 Update the last-modified timestamp on a file to the current time.
 Return `path`.
 
+Creates the file if it does not exists.
+
 # Examples
 ```julia-repl
 julia> write("my_little_file", 2);
